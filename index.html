@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2016 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DementiaWords: Identifying The UK Media's Serial Offenders</title>
+  <link rel="icon" href="favicon.png">
+
+  <!-- Material Design Theming -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Amatica+SC|Roboto" rel="stylesheet">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
+
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Firebase -->
+  <!-- ***********************************************************************************************************************
+       * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
+       *********************************************************************************************************************** -->
+
+</head>
+<body>
+  <!-- Simple header with scrollable tabs. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <h2>#DementiaWords</h2>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Introduction</a>
+        <a href="#scroll-tab-2" class="mdl-layout__tab">2016 Articles</a>
+        <a href="#scroll-tab-3" class="mdl-layout__tab">2015 Articles</a>
+        <a href="mailto:alastair@alastaircox.com?Subject=#DementiaWords" target="_blank" class="mdl-layout__tab">Email me</a>
+        <a href="https://twitter.com/dementiamap" target="_blank" class="mdl-layout__tab">Tweet me</a>
+        <a href="https://docs.google.com/spreadsheets/d/1ZaLkpUEvLvtENami02BaQ3y-kRiPSwBWD-c9uK6UIuo/edit?usp=sharing" target="_blank" class="mdl-layout__tab">Download Data</a>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+        <div class="page-content">
+          <h3 class="display-2">1. Overview</h3>
+          <p>
+            The primary purpose of this project is to identify the UK media sources that consistently refer to <strong>"dementia sufferers"</strong> or use similarly pejorative terms when describing people living with dementia. In addition, the website provides a simple call-to-action method to hold publishers to account for the language they use. At the bottom of each card of content is a red button - <button aria-hidden="true" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color--red-300" disabled> tweet @media</button> - that lets you tweet the publisher, flagging up the associated article.
+            </p>
+          <h3>2. Getting Started</h3>
+          <p>
+          To get started, click on the '2016 Articles' or '2015 Articles' links above. You can then filter the content by dragging the markers on the 'Article date' range slider, by looking for words used in headlines with the 'Search' box or by choosing at least one option from the 'Publication' drop down list. You can also combine filters.
+        </p>
+          <h3>3. What Next?</h3>
+          <p>
+            If you want to flag any content up, please email or tweet me using the links at the top of the page. I don't currently have the time to collate information from media outside of the UK, but I can clone this project for use in other territories, if anyone is interested.
+
+          </p>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+        <div class="page-content">
+          <div data-type="AwesomeTableView" data-viewID="-KV9hekrLOdU47mjQiYD"></div>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+        <div class="page-content">
+          <!-- Place this tag where you want the Awesome Table Widget to render -->
+            <div data-type="AwesomeTableView" data-viewID="-KVUC4Qr3OM-UWD25b3P"></div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
