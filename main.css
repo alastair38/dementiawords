@@ -47,8 +47,7 @@ h2 {
   font-family: 'Amatica SC', cursive;;
   letter-spacing: 3px;
   font-size: 34px !important;
-  width: 50%;
-  margin-left: 25%;
+  width: 100%;
   text-align: center;
 }
 
@@ -73,12 +72,17 @@ p {
   border-bottom: 20px solid transparent;
 }
 
-.mdl-layout__tab-bar, .mdl-layout__tab-bar-button {
+
+.mdl-layout__tab-bar-button {display: none;}
+
+.mdl-layout__tab-bar {
+  width: 100%;
+  padding: 0;
   background: none;
 }
 
 #scroll-tab-1 .page-content {
-  padding: 6em;
+  padding: 2em 3em;
 }
 #scroll-tab-2 .page-content, #scroll-tab-3 .page-content {
   padding: 2em;
