@@ -42,9 +42,10 @@ header {
   background-attachment: fixed;
 }
 
+
 h2 {
-  font-weight: 400 !important;
-  font-family: 'Amatica SC', cursive;;
+  font-weight: 300 !important;
+  font-family: 'Cabin Sketch', cursive;;
   letter-spacing: 3px;
   font-size: 34px !important;
   width: 100%;
@@ -88,9 +89,13 @@ p {
   padding: 2em;
 }
 
+.mdl-tabs__panel p {font-style: italic; padding: 0 1em;}
+
 a.mdl-layout__tab {color: white;}
 
 a.mdl-layout__tab.is-active {color: #FFEB3B !important;}
+
+.page-content h3 {text-align: center; background: whitesmoke; padding: .25em; font-size: 2em;}
 
 button > span#demo
 {
